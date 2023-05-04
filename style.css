@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+  
+    width: 100%;
+    margin: auto;
+    display: flex;
+    padding: 35px 0;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+   
+    
+}
+.for-text ul{
+    margin-left: 10rem;
+}
+.for-text ul li a{
+    color: #eff4fd;
+   }
+   .for-form input{
+     background: #eff4f7;
+     border: 2px solid black;
+     box-shadow: 0 0 5px black;
+     text-align: center;
+     border-radius: 0.5rem;
+   }
+   .for-form button{
+     background-color: #eff4fd;
+     color: gray;
+   }
+  
+img{
+
+    width: 150px;
+    margin-top: 5px;
+    
+}
+ul{
+
+   padding-top: 10px;
+}
+li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+    position: relative;
+}
+li a{
+    color: antiquewhite;
+    text-transform: uppercase;
+    padding: 10px;
+    text-decoration: none;
+}
+li::after{
+    content: "";
+    width: 0;
+    height: 4px;
+    background: antiquewhite;
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    transition: 0.5s;
+
+}
+li a:hover{
+    color: antiquewhite;
+}
+li:hover::after{
+    width: 100%;
+    color: antiquewhite;
+}
+
+
+/*---------header section--------*/
+
+#banner{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    color: #fff;
+    padding-top: 5%;
+} 
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+#banner a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#banner a:hover{
+    padding: 15px 15px;
+}
+.img-fluid{
+    width: 333px;
+    margin-left: 400;
+}
+
+
+
+/*----------------services section-------------*/
+
+#services{
+    padding: 80px 0;
+    background-color: #eff4f7;
+}
+.service-img{
+    width: 100px;
+    margin-top: 20px;
+}
+.service{
+    padding: 20px;
+}
+.services h4{
+    padding: 5px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.title::before{
+    content: '';
+    background-color: #7b1798;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title::after{
+    content: '';
+    background-color: #7b1798;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+#services .btn-primary{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    
+}
+
+
+/*------------about us---------*/
+#about-us{
+    margin:100px 0;
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: #eff4f7;
+
+}
+.about-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+#about-us ul li{
+    margin: 10ox 0;
+}
+#about-us img{
+    margin-top: 10%;
+    width: 80%;
+}
+#about-us-ul{
+    margin-left: 20px;
+}
+
+
+
+/*----------------testimonials sesction-----------*/
+#testimonials{
+    margin: 100px 0;
+    background-color: #eff4f7;
+
+   
+}
+.testimonials{
+    border-left: 4px solid #7b1798;
+    margin-top: 50px;
+    margin-bottom: 58px;
+}
+.testimonials img{
+    height: 100px;
+    width: 110px;
+    border-radius: 50%;
+    margin:0 20px ;
+}
+.user-details{
+    display: inline-block;
+    font-size: 14px;
+    
+}
+
+/*------------------Social media ------------*/
+#social-media{
+    background-color: #eff4f7;
+    margin: 100px 0;
+}
+#social-medial p{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.social-icons img{
+    width: 60px;
+    transition: 0.5s;
+}
+.social-icons a:hover img{
+    transform: translateY(-10px);
+    
+}
+.social-icons h5{
+    color: #5f1782;
+}
+.social-icons li::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #5f1782;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.social-icons li:hover::after{
+    width: 100%;
+}
+
+
+/*----------footer section----------*/
+#footer{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+}
+.footer-box{
+    padding: 20px;
+    color: black;
+}
+.footer-box img{
+    width: 220px;
+    margin-bottom: 20px;
+}
+.footer-box b{
+    margin-left: 30px;
+}
+
+.footer-box li img{
+    width: 48px;
+    margin-bottom: 8px;
+
+}
+/*eta kora hoyche nav er li er shate jate na mile jay */    .footer-box li::after{
+    bottom: 10px;
+}
+.footer-box .form-control{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+.footer-box .btn-primary{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,#ac5eb8,#5f1782);
+    margin-top: 20px;
+}
+
+.copyright{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #fff;
+}
+
